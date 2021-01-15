@@ -1,15 +1,21 @@
 # Lecture downloader
 
+Download all video files (720p) and slides information.
+
 ## Requirements 
 
-* Unix Shell (bash is recommended)
+* Unix Shell
 * curl
 * jq
-* a Internet connection
+* a working Internet connection
 
 
 ## Run
 
 ```sh
-sh download.sh
+# download all json files and lecture videos
+make
+
+# clean up
+make clean
 ```
